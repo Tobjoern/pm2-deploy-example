@@ -1,8 +1,11 @@
+import express from 'express'
 
-export const coolFunction = (a: number) => {
-    console.log('This is a cool function :)')
-}
+const app = express()
 
-export interface TestInterface {
-    a: number
-}
+app.get('/hello', (req, res) => {
+    res.status(200).send('World!')
+})
+
+app.listen(3000, () => {
+    console.log(`Listening on http://localhost:3000/hello.`);
+})
