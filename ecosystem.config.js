@@ -14,7 +14,7 @@ module.exports = {
 
   deploy: {
     production: {
-      "user": "ubuntu",
+      "user": "root",
       "host": ["46.101.181.71"],
       "ref": "origin/master",
       "repo": "git@github.com:Tobjoern/pm2-deploy-example.git",
