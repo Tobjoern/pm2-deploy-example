@@ -16,7 +16,7 @@ module.exports = {
     production: {
       "user": "root",
       "host": ["46.101.181.71"],
-      "ref": "origin/master",
+      "ref": "origin/main",
       "repo": "git@github.com:Tobjoern/pm2-deploy-example.git",
       "path": "/root/apps/my-app",
       "post-deploy": "npm install"
