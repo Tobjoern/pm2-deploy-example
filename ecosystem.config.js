@@ -1,7 +1,7 @@
 module.exports = {
   apps: [{
     name: "main-app",
-    script: "./lib/index.js",
+    script: "lib/index.js",
     env_production: {
       NODE_ENV: "production"
     },
